@@ -19,4 +19,10 @@ Stampare su console le informazioni di nome, ruolo e la stringa della foto
 Stampare le stesse informazioni su DOM sottoforma di stringhe
 
 **Procedimento:**
-1. 
+1. Creiamo il nostro array per ogni dipendente. Ognuno deve contenere le seguenti informazioni:
+- Nome
+- Impiego
+- Stringa dell'indirizzo dell'immagine
+2. Associamo ad una nostra variabile il collegamento per la classe in cui vogliamo aggiungere le nostre card dei dipendenti.
+3. Creiamo un ciclo for in modo da poter riempire una nostra variabile da supporto con tutti i dati, scritti esattamente come se fossero su html.
+4. Al collegamento creato in precedenza andiamo a scrivere al suo interno grazie a "innerHTML", dandogli come valore la nostra variabile da supporto.

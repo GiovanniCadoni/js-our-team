@@ -48,7 +48,7 @@ for(let i = 0; i < employee.length; i++)
     <div class="card">
         <img src="${curEmployee.image}" class="card-img-top pt-3" alt="${curEmployee.name}">
         <div class="card-body">
-            <p class="card-text text-center fw-bolder">${curEmployee.name}</p>
+            <p class="card-text text-center fw-bolder fs-5">${curEmployee.name}</p>
             <p class="card-text text-center text-secondary">${curEmployee.role}</p>
         </div>
     </div>`;
